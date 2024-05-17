@@ -1,0 +1,5 @@
+rootProject.name = 'reactive-shopping-cart'
+include 'infrastructure'
+include 'domain'
+include 'application'
+

@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+java {
+    modularity.inferModulePath = true
+}
+
+application {
+    mainClass = 'com.labs.shoppingcart.MainInfrastructure'
+}
+
+dependencies {
+    implementation project(':application')
+}
